@@ -1,4 +1,4 @@
-Website Name: fRIENDSHIP
+Website Name: Friendship
 <!-- Website Link: https://friendship-47303.web.app -->
 
 
