@@ -18,7 +18,7 @@ const Banner = () => {
     console.log(searchPosts);
 
     return (
-        <div className="hero mx-auto min-h-[100vh] lg:min-h-[87.7vh]" style={{ backgroundImage: 'url(https://i.ibb.co/XsN3k4y/banner-4.jpg)' }}>
+        <div className="hero mx-auto min-h-[100vh] lg:min-h-[87.7vh]" style={{ backgroundImage: 'url(https://i.ibb.co/7S8kmFP/banner.jpg)' }}>
             <div className="cover"></div>
             <div className="p-0 text-center text-neutral-content">
                 <div className="w-[90vw] text-left text-white">

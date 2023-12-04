@@ -3,11 +3,11 @@ import SectionTitle from "../../../Components/SectionTitle/SectionTitle";
 
 const Membership = () => {
     return (
-        <div className="bg-[url('https://i.ibb.co/VtVNBh8/Concert1.jpg')] bg-cover bg-fixed text-white pt-8 my-20">
+        <div className="bg-[url('https://i.ibb.co/DttNVvW/parallax-back.jpg')] bg-cover bg-fixed text-white pt-8 my-20">
             <SectionTitle heading={"Membership"} subHeading={"Get a Gold badge"}></SectionTitle>
             <div className="md:flex justify-center items-center pb-20 pt-12 px-36 bg-slate-500 bg-opacity-40">
             <div>
-                <img src={`https://i.ibb.co/ncnQr4q/adidas-pro-2.jpg`} alt="" />
+                <img src={`https://i.ibb.co/zsbhw1F/parallax-front.jpg`} alt="" />
             </div>
             <div className="md:ml-10">
                 <h2>Be a member</h2>

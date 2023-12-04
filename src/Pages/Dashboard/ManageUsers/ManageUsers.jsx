@@ -54,7 +54,7 @@ const ManageUsers = () => {
                                     {index + 1}
                                 </th>
                                 <td>
-                                    <div className="flex items-center gap-3">
+                                    <div className="flex items-center gap-2">
                                         <div className="avatar">
                                             <div className="mask mask-squircle w-12 h-12">
                                                 <img src={user?.photo} alt="Avatar Tailwind CSS Component" />

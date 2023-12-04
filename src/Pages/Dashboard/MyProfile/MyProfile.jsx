@@ -20,7 +20,7 @@ const MyProfile = () => {
     return (
         <div>
             <div>
-                <h2>{myAllPosts.length}</h2>
+                <h2 className="text-3xl">My posts: {myAllPosts.length}</h2>
             </div>
             <div>
               
