@@ -39,7 +39,7 @@ const SignUp = () => {
                                 reset();
                                 swal("Good job!", "Sign Up Done!", "success");
                                 logOut();
-                                navigate('/')
+                                navigate('/dashboard')
                             }
                         })
                        

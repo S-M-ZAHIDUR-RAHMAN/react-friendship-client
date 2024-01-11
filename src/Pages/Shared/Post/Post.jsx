@@ -11,8 +11,9 @@ const Post = ({item}) => {
                 <p>Comments: {commentsCount}</p>
                 <p>Up vote: {upVote}</p>
                 <p>Down Vote: {downVote}</p>
+                <p className="text-yellow-500">{time}</p>
             </div>
-            <p className="text-yellow-500">{time}</p>
+           
         </div>
     );
 };
