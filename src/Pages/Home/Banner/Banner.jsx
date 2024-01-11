@@ -26,8 +26,8 @@ const Banner = () => {
                     <p className="mb-5 p-4 hero-overlay text-4xl"> Searching... <span className="font-bold underline text-yellow-300">Friendship?</span></p>
                 </div>
                 <div className="">
-                    <form onSubmit={handleSearch} className="flex flex-row gap-2 justify-center">
-                        <input className="pl-3 lowercase text-black" type="text" placeholder="Tags only" name="search" id="" />
+                    <form onSubmit={handleSearch} className="flex md:flex-row flex-col gap-2 justify-center">
+                        <input className="pl-3 py-3 lowercase text-black" type="text" placeholder="Tags only" name="search" id="" />
                         <input className="btn accent-slate-500" type="submit" value="Search Post Title" />
                     </form>
                 </div>

@@ -14,7 +14,7 @@ const Announcements = () => {
             )}
 
             {announcements.length > 0 && (
-                <div className="grid md:grid-cols-2 gap-10">
+                <div className="grid md:grid-cols-1 gap-5 px-5">
                     {
                         announcements?.map(announcement => <Announcement key={announcement?._id} announcement={announcement}></Announcement>)
                     }
